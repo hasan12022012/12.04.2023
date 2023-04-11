@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.cars {
+    display: flex;
+    margin-top: 500px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.cars img {
+    width: 250px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+
+p {
+    font-size: 50px;
+    color: rose;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+}
+
+h1 {
+    font-size: 25px;
+    color: dark;
+    margin-top: -5px;
+    margin-bottom: 17px;
+}
+
+h2 {
+    color: tan;
+    margin-top: -5px;
+    margin-bottom: 17px;
+}
+
+img {
+    width: 290px;
+    margin-top: 47px;
+}
+
+.slideshow-buttons {
+    top: 70%;
+    display: none;
+}
+
+
+
+.product {
+    position: absolute;
+    width: 40%;
+    height: 1%;
+    top: 10%;
+    left: 60%;
+    z-index:-1;
+}
+
+.info {
+    font-size: 25px;
+    margin-bottom: 17px;
+    color: dark;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+button {
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #E8A92B;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+    background: red;
+    transition: 0.5s;
+}
+
+.add {
+    width: 67%;
+}
+
+.like {
+    width: 22%;
+}
+
+.icon{
+    margin-bottom: 17px;
+}
+
+.icon ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+.icon ul li a {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.icon ul li a:hover{
+background-color: black;
+}
+
+.icon ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+a:hover {
+    color: red;
+    border-color: red;
+}
+
+.fb {
+    color: #3c5a99;
+    border-style: solid;
+    border-color: #3c5a99;
+}
+
+.tw {
+    color: #56aded;
+    border-style: solid;
+    border-color:#56aded;
+}
+
+.go {
+    color: #dc4b39;
+    border-style: solid;
+    border-color:#dc4b39;
+}
+
+.in {
+    color: #4e9ac0;
+    border-style: solid;
+    border-color:#4e9ac0;
+}
+
+.igram {
+    color: #e5435f;
+    border-style: solid;
+    border-color: #e5435f;
+}
+
+footer {
+    background-color: #E8A92B;
+    height: 100px;
+}
